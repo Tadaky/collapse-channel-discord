@@ -1,0 +1,24 @@
+/* collapse channel*/
+.sidebar_a4d4d9 {
+    max-width: 50px;
+    min-width: 50px;
+    transition: 0.35s ease;
+}
+
+.sidebar_a4d4d9:hover {
+    max-width: 240px;
+    min-width: 240px;
+}
+
+div:not(:hover) > .sidebar_a4d4d9 > div {
+    padding-top: 10px;
+}
+
+/* collapse channel transparency */
+.sidebar_a4d4d9 {
+    opacity: 0%;
+}
+
+.sidebar_a4d4d9:hover {
+    opacity: 100%;
+}
