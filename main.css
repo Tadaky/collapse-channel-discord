@@ -14,11 +14,37 @@ div:not(:hover) > .sidebar_a4d4d9 > div {
     padding-top: 10px;
 }
 
-/* collapse channel transparency */
+/* opacity channel */
 .sidebar_a4d4d9 {
     opacity: 0%;
 }
 
 .sidebar_a4d4d9:hover {
+    opacity: 100%;
+}
+
+/* collapse active now */
+.nowPlayingColumn_c2739c {
+    max-width: 20px;
+    min-width: 10px;
+    transition: 0.35s ease;
+}
+
+.nowPlayingColumn_c2739c:hover {
+    max-width: 400px;
+    min-width: 200px;
+}
+
+div:not(:hover) > .nowPlayingColumn_c2739c > div {
+    padding-top: 10px;
+}
+
+/* hover opacity active now */
+div:not(:hover) > .itemCard_f02fcf {
+    opacity: 0%;
+    transition: 0.35s ease;
+}
+
+.itemCard_f02fcf {
     opacity: 100%;
 }
