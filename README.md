@@ -1,2 +1,2 @@
 # collapse-channel-discord
-collapse channel
+collapse channel created by me
